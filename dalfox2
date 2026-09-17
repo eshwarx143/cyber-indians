@@ -1,0 +1,12 @@
+# Download the latest Linux binary
+wget https://github.com/hahwul/dalfox/releases/latest/download/dalfox_linux_amd64.zip
+
+# Unzip it
+unzip dalfox_linux_amd64.zip
+
+# Make it executable and move to PATH
+chmod +x dalfox
+sudo mv dalfox /usr/local/bin/
+
+# Clean up
+rm dalfox_linux_amd64.zip
